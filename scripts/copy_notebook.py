@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 """
 Takes as arguments:
 1. the path to a JSON file (such as an IPython notebook).
