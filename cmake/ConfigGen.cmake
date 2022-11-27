@@ -18,7 +18,7 @@ endfunction()
 # Usage:
 #  caffe_generate_export_configs()
 function(caffe_generate_export_configs)
-  set(install_cmake_suffix "share/Caffe")
+  set(install_cmake_suffix "lib64/cmake/Caffe")
 
   if(NOT HAVE_CUDA)
     set(HAVE_CUDA FALSE)
